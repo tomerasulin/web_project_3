@@ -1,0 +1,12 @@
+.intro__artist{
+    width: 720px;
+    height: 34px;
+    padding: 10px 65px 0 0;
+    margin: 0;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1.41;
+    text-align: right;
+    color: #FFFFFF;
+}

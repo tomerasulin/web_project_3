@@ -1,0 +1,9 @@
+.place__frame{
+    width: 248px;
+    height: 48px;
+    grid-area: frame;
+    background-color: #0278FE;
+    border-radius: 4px;
+    text-decoration: none;
+    display: flex;
+}

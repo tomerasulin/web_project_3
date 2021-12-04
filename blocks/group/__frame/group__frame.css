@@ -1,0 +1,9 @@
+.group__frame{
+    width: 137px;
+    height: 48px;
+    background-color: #0278FE;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 32px;
+    display: flex;
+}
