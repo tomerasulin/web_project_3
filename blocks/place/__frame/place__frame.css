@@ -1,9 +1,19 @@
-.place__frame{
-    width: 248px;
-    height: 48px;
-    grid-area: frame;
-    background-color: #0278FE;
-    border-radius: 4px;
-    text-decoration: none;
-    display: flex;
+.place__frame {
+  width: 248px;
+  height: 48px;
+  grid-area: frame;
+  border-radius: 4px;
+  text-decoration: none;
+  display: flex;
+}
+
+.place__frame :hover {
+  cursor: url(../../../images/finger-cursor.svg), default;
+}
+
+@media screen and (max-width: 320px) {
+  .place__frame {
+    margin: 0 16px;
+    width: 288px;
+  }
 }

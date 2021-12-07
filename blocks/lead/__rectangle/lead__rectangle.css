@@ -1,4 +1,17 @@
-.lead__rectangle{
-    color: #000000;
-    filter: grayscale(1);
+.lead__rectangle {
+  color: #000000;
+  filter: grayscale(1);
+  padding-top: 64px;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__rectangle {
+    padding: 36px 0 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__rectangle {
+    padding: 40px 0 0;
+  }
 }

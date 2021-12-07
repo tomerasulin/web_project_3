@@ -1,8 +1,12 @@
-.place__website{
-    /* width: 456px;
-    height: 45px; */
-    grid-area: website;
-    display: grid;
-    align-self: end; /* or margin-top: 107px */
-    align-content: center;
+.place__website {
+  grid-area: website;
+  display: grid;
+  align-self: end;
+  align-content: center;
+}
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    padding: 0 16px;
+  }
 }

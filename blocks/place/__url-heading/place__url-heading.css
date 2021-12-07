@@ -1,12 +1,10 @@
-.place__url-heading{
-    width: 50px;
-    height: 15px;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 12px;
-    line-height: 1.21;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: #AAAAAA;
-    margin-bottom: 8px;
+.place__url-heading {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 1.21;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  margin-bottom: 8px;
 }

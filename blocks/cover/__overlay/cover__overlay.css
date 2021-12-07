@@ -1,0 +1,21 @@
+.cover__overlay {
+  background-color: #2a2b2c;
+  grid-area: cover;
+  opacity: 0.3;
+  width: 1184px;
+  height: 740px;
+}
+
+@media screen and (max-width: 768px) {
+  .cover__overlay {
+    width: 768px;
+    height: 746px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__overlay {
+    width: 320px;
+    height: 254px;
+  }
+}

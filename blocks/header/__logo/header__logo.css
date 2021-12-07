@@ -1,7 +1,13 @@
 .header__logo {
-  max-height: 70px;
   max-width: 270px;
-  padding: 34px 505px 0;
+  max-height: 70px;
 }
 
 /* media queries for different resolutions */
+
+@media screen and (max-width: 320px) {
+  .header__logo {
+    max-width: 200px;
+    max-height: 51.85px;
+  }
+}

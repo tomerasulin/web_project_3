@@ -1,0 +1,20 @@
+.cover__background {
+  background-repeat: no-repeat;
+  grid-area: cover;
+  width: 1184px;
+  height: 740px;
+}
+
+@media screen and (max-width: 768px) {
+  .cover__background {
+    width: 768px;
+    height: 746px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__background {
+    width: 321.26px;
+    height: 254px;
+  }
+}
