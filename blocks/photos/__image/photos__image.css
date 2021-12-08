@@ -1,15 +1,16 @@
 .photos__image {
-  min-width: 284px;
+  max-width: 284px;
+  height: auto;
 }
 
 @media screen and (max-width: 768px) {
   .photos__image {
-    min-width: 352px;
+    max-width: 352px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .photos__image {
-    min-width: 288px;
+    max-width: 288px;
   }
 }
