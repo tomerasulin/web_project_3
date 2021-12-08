@@ -1,5 +1,6 @@
 .lead__rectangle {
   color: #000000;
+  -webkit-filter: grayscale(1);
   filter: grayscale(1);
   padding-top: 64px;
 }

@@ -1,7 +1,10 @@
 .place__website {
   grid-area: website;
+  display: -ms-grid;
   display: grid;
+  -ms-grid-row-align: end;
   align-self: end;
+  -ms-flex-line-pack: center;
   align-content: center;
 }
 

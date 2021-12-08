@@ -1,5 +1,6 @@
 .cover {
   margin: 92px 48px 0;
+  display: -ms-grid;
   display: grid;
   grid-template: "cover";
   max-width: 1184px;

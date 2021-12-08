@@ -1,11 +1,13 @@
 .header {
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   padding: 34px 505px 0;
 }
-
-/* media queries for different resolutions */
 
 @media screen and (max-width: 768px) {
   .header {

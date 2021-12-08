@@ -4,6 +4,8 @@
   grid-area: frame;
   border-radius: 4px;
   text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
