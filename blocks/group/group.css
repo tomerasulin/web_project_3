@@ -10,7 +10,10 @@
   padding: 243px 264px;
   border-radius: 4px;
   z-index: 1;
-  max-width: 656px;
+}
+
+.group:hover {
+  cursor: url("../../images/black-cursor.svg"), default;
 }
 
 @media screen and (max-width: 768px) {
