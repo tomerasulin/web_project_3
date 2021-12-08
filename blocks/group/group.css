@@ -1,17 +1,16 @@
 .group {
-  /* display: inline-grid; */
   display: flex;
   flex-direction: column;
   grid-area: cover;
   padding: 243px 264px;
   border-radius: 4px;
   z-index: 1;
+  max-width: 656px;
 }
 
 @media screen and (max-width: 768px) {
   .group{
     padding: 246px 56px;
-    max-width: 656px;
   }
 }
 
