@@ -8,9 +8,10 @@
   -ms-flex-item-align: end;
   align-self: flex-end;
   padding-bottom: 24px;
+  margin: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 475px) {
   .footer__copyright {
     line-height: 1;
   }

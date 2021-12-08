@@ -13,7 +13,7 @@
   cursor: url(../../../images/finger-cursor.svg), default;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 475px) {
   .place__frame {
     margin: 0 16px;
     width: 288px;

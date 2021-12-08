@@ -1,20 +1,9 @@
 .footer {
-  width: 165px;
-  height: 16px;
-  margin: 92px 558px 0 557px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  justify-content: center;
+  margin-top: 92px;
 }
 
-@media screen and (max-width: 768px) {
-  .footer {
-    margin: 88px 302px 0 301px;
-  }
-}
 
-@media screen and (max-width: 320px) {
-  .footer {
-    margin: 64px 78px 0 77px;
-  }
-}

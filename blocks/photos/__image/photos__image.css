@@ -9,7 +9,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 475px) {
   .photos__image {
     max-width: 288px;
   }
