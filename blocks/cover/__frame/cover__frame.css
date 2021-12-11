@@ -1,0 +1,26 @@
+.cover__frame {
+  width: 137px;
+  max-height: 48px;
+  text-decoration: none;
+  margin: 32px 0 0;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #ffffff;
+  padding: 13px 20px;
+  background-color: #0278fe;
+  border-radius: 4px;
+  text-align: center;
+  z-index: 2;
+}
+
+.cover__frame :hover {
+  cursor: url(../../../images/finger-cursor.svg), default;
+}
+
+@media screen and (max-width: 320px) {
+  .cover__frame {
+    margin: 16px 0 0;
+  }
+}

@@ -1,5 +1,5 @@
 .places {
-  margin: 92px 148px 0 145px;
+  margin: 92px auto 0;
   display: -ms-grid;
   display: grid;
   gap: 80px;
@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 475px) {
   .places {
-    margin: 62px 0 0;
+    margin: 62px auto 0;
     gap: 50px 0;
   }
 }

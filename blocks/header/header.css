@@ -1,22 +1,21 @@
 .header {
-  margin: 0 auto;
+  margin: 34px auto 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding: 34px 505px 0;
 }
 
 @media screen and (max-width: 768px) {
   .header {
-    padding: 34px 249px 0;
+    margin: 34px 249px 0;
   }
 }
 
 @media screen and (max-width: 475px) {
   .header {
-    padding: 20px 60px 0;
+    margin: 20px 60px 0;
   }
 }

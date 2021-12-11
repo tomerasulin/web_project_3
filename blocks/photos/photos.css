@@ -1,23 +1,19 @@
 .photos {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
   gap: 16px;
   list-style: none;
   padding: 0;
-  margin: 0;
 }
 
 @media screen and (max-width: 768px) {
   .photos {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 1fr);
   }
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 320px) {
   .photos {
-    grid-template-rows: repeat(8, 1fr);
     grid-template-columns: 1fr;
     gap: 12px;
   }
