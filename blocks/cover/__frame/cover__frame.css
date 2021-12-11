@@ -13,10 +13,12 @@
   border-radius: 4px;
   text-align: center;
   z-index: 2;
+  transition: background-color 0.3s;
 }
 
-.cover__frame :hover {
+.cover__frame:hover {
   cursor: url(../../../images/finger-cursor.svg), default;
+  background-color: #0063d2;
 }
 
 @media screen and (max-width: 320px) {

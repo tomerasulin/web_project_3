@@ -1,5 +1,6 @@
 .intro {
   margin: 92px auto 0;
+  max-width: 984px;
 }
 
 @media screen and (max-width: 768px) {

@@ -6,7 +6,6 @@
   font-size: 24px;
   line-height: 1.41;
   color: #ffffff;
-  max-width: 720px;
 }
 
 @media screen and (max-width: 768px) {
@@ -18,6 +17,5 @@
 @media screen and (max-width: 475px) {
   .intro__text {
     line-height: 1.25;
-    max-width: 288px;
   }
 }

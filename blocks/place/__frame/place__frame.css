@@ -7,10 +7,20 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  background-color: #0278fe;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s;
 }
 
-.place__frame :hover {
+.place__frame:hover {
   cursor: url(../../../images/finger-cursor.svg), default;
+  background-color: #0063d2;
 }
 
 @media screen and (max-width: 475px) {
