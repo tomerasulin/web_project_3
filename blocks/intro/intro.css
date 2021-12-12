@@ -1,6 +1,7 @@
 .intro {
-  margin: 92px auto 0;
-  max-width: 984px;
+  margin-top: 92px;
+  margin-left: calc((100% - 984px) / 2);
+  margin-right: auto;
 }
 
 @media screen and (max-width: 768px) {
