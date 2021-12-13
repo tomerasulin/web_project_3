@@ -7,6 +7,7 @@
   .photo-grid {
     margin: 90px 24px 0;
     max-width: calc((100% - (24px * 2)));
+    width: 100%;
   }
 }
 
